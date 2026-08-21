@@ -1,0 +1,9 @@
+react js is a library in js use to make UI 
+librarys in js :(multiple libraries cone together to form a structure ,due to this we have high customizeability and flexibility)
+    -GSAP
+    -Lenis
+    -react js
+
+Framework(inbuilt structure but less flexibility and less customizeable)
+    -next js
+    -Angular
