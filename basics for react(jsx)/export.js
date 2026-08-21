@@ -10,3 +10,4 @@ const user="niggas"
 export default user
 //export default arr // this will give error because a module can have only one default export.
 
+export const fun=function nigga(){ return "hello mf"}

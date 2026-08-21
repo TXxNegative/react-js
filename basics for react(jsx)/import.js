@@ -13,3 +13,5 @@ console.log(arr1+d);
 import user2 from "./test.js"
 console.log(user2);
 
+import {fun} from "./export.js"
+console.log(fun());

@@ -1,0 +1,22 @@
+// JSX => HTML + JS (file extension)
+// in jsx we an directly create an element by mentioning it rather than by createElement() function.
+/*in jsx for calling a function we can also use : 
+
+function nigga(){
+
+}
+
+nigga() 
+
+<nigga />  -> in jsx only we can call by this method also
+*/
+
+/* 
+making folder with vite
+vite -> it is a bundler
+bundler -> it is a tool to create folder in react
+
+before vite we use "npm create-react-app" in terminal for create a folder in jsx, it is removed because so we can use the react as a library.
+
+now we use "npm create vite" in terminal for create new folder 
+*/
