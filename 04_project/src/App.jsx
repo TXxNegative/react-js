@@ -109,16 +109,19 @@ const App=()=>{
 ];
   return(
     <div className="parent">
-      {jobOpenings.map((bio)=>{
-        return (<Card 
-          brandLogo={bio.brandLogo} 
-          companyName={bio.companyName}
-          posted={bio.posted}
-          post={bio.post}
-          tag1={bio.tag1}
-          tag2={bio.tag2}
-          pay={bio.pay}
-          location={bio.location} />
+      {jobOpenings.map((bio,inx)=>{
+        return (
+        <div key={inx}>
+          <Card 
+            brandLogo={bio.brandLogo} 
+            companyName={bio.companyName}
+            posted={bio.posted}
+            post={bio.post}
+            tag1={bio.tag1}
+            tag2={bio.tag2}
+            pay={bio.pay}
+            location={bio.location} />
+        </div>
         )
       })}
     </div>
