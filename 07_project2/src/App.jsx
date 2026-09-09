@@ -1,8 +1,7 @@
-//http://localhost:5173/
 
 const App = () => {
   return (
-    <div className="bg-red-500 h-10 w-30 ">
+    <div className="bg-amber-400 h-40 w-40 border-black ">
       
     </div>
   )
