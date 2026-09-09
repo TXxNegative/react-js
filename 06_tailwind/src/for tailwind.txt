@@ -1,0 +1,23 @@
+/case-1/:  when tailwind package is installed in main (react js) folder then 
+
+step-0: create a vite and then stop the surver by(ctrl+c) in terminal.
+
+step-1: paste (import tailwindcss from '@tailwindcss/vite') in vite.config.ts file of the new project. without ().
+
+step-2: in same file inside plugins array add (tailwindcss()). without ().
+
+step-3: in index.css (main css) file remove everything and just add (@import "tailwindcss";) . without (). the index.css file must just have (@import "tailwindcss";)
+
+step-4: now run the server again (nm run dev).
+
+
+
+/case-2/: when tailwind packageis not downloaded anywhere, we have to download it in current project then.
+
+step-0: create a vite and then stop the surver by(ctrl+c) in terminal.
+
+step-1: cd current-project (just replace the current-project with project name you are in)
+
+step-2: (npm install tailwindcss @tailwindcss/vite) in terminal without (). this will install tailwindcss modules only inside current project folder
+
+step-3: do same as step-1 to step-4 of case-1.
