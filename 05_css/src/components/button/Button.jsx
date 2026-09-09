@@ -1,6 +1,7 @@
+import styles from './button.module.css'
 const Button = () => {
   return (
-    <div className="btn">
+    <div className={styles.btn}>
       this is button
     </div>
   )
