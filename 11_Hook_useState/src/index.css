@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    min-height: 100%;
+}
+
+.count{
+  width: fit-content;
+  margin-left: 5px;
+  margin-top: 10px;
+  background-color: pink;
+  padding: 8px;
+}
+button{
+  margin: 20px;
+  padding: 10px;
+  background-color: yellowgreen;
+  border-radius: 15px;
+}
+h1{
+  background-color: bisque;
+  width: fit-content;
+  font-size: 100px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 10px 70px;
+  margin: 20px;
+}
